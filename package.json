@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "API para proyectos realizados por Create Tech Solutions",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "start"
+    "start": "node --watch index.js ",
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,14 @@
   "bugs": {
     "url": "https://github.com/Danielj2005/CreatTechSolutionsAPI/issues"
   },
-  "homepage": "https://github.com/Danielj2005/CreatTechSolutionsAPI#readme"
+  "homepage": "https://github.com/Danielj2005/CreatTechSolutionsAPI#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "2.58.0",
+    "axios": "1.11.0",
+    "cheerio": "1.1.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "2.8.5",
+    "dotenv": "17.2.2",
+    "express": "5.1.0"
+  }
 }
