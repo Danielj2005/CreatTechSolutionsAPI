@@ -1,0 +1,27 @@
+{
+  "name": "creattechsolutionsapi",
+  "version": "1.0.0",
+  "description": "API para proyectos realizados por Create Tech Solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielj2005/CreatTechSolutionsAPI.git"
+  },
+  "keywords": [
+    "API",
+    "NODE.JS",
+    "EXPRESS",
+    "Create",
+    "Tech",
+    "Solutions"
+  ],
+  "author": "Daniel Barrueta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danielj2005/CreatTechSolutionsAPI/issues"
+  },
+  "homepage": "https://github.com/Danielj2005/CreatTechSolutionsAPI#readme"
+}
